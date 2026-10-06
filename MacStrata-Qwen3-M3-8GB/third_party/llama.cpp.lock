@@ -1,0 +1,5 @@
+# Pinned experimental llama.cpp runtime for disk-backed MoE expert residency on Apple Silicon.
+REPOSITORY=https://github.com/kisasexypantera94/llama.cpp.git
+REF=moe-expert-residency
+COMMIT=41ec4c4e94fd5ff6c258691f35f2fcd0d3dde892
+FEATURE=Metal expert slot pool + on-demand GGUF expert loading
